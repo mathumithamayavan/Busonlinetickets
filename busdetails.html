@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bus Details</title>
+    
+
+    <style>
+
+
+body {
+    font-family: 'Josefin Sans', sans-serif;
+    box-sizing: border-box;
+  }
+  .container-fluid{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background: #FFF;
+  }
+  /* ============= Animation background ========= */
+  .background {
+    background: linear-gradient(132deg, #3fd1eb, #ee73c9, #1577a5);
+    background-size: 400% 400%;
+    animation: Gradient 15s ease infinite;
+    position: relative;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    padding:0;
+    margin:0px;
+  }
+  
+  
+  /* Animate Background*/
+  @keyframes Gradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  @keyframes cube {
+    from {
+      transform: scale(0) rotate(0deg) translate(-50%, -50%);
+      opacity: 1;
+    }
+    to {
+      transform: scale(20) rotate(960deg) translate(-50%, -50%);
+      opacity: 0;
+    }
+  }
+
+
+
+
+        body {
+            font-family: Arial, sans-serif;
+            color: black;
+            margin: 0;
+            padding: 0;
+        }
+
+        .bus-details {
+            width: 20%;
+            margin: 20px auto;
+            background:white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .bus-details h2 {
+            color:black;
+        }
+
+        .bus-info {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 15px;
+        }
+
+        .bus-info span {
+            font-weight: bold;
+        }
+
+        .book-button {
+            background-color: #4764e4;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+        }   
+        .details{
+            display:flex;
+            gap:40px;
+            width: 100%;
+            height: 100%s;
+        }
+
+
+    </style>
+</head>
+<body>
+      <!-- Background & animion & navbar & title -->
+<div class="container-fluid background">
+           
+    
+    <div class="details">
+        <div class="bus-details">
+            <h2>PSS TRANSPORT</h2><br>
+    
+            <div class="bus-info">
+                <span>Bus Number:</span>
+                <span>TN42K2808</span>
+            </div>
+    
+            <div class="bus-info">
+                <span>Departure Time:</span>
+                <span>10:00 AM</span>
+            </div>
+    
+            <div class="bus-info">
+                <span>Departure Point:</span>
+                <span>Chennai</span>
+            </div>
+    
+            <div class="bus-info">
+                <span>Destination:</span>
+                <span>Pollachi</span>
+            </div>
+    
+            <div class="bus-info">
+                <span>Available Seats:</span>
+                <span>32</span>
+            </div>
+            <a href="./psstransport.html"> <button type="button" class="book-button">Book Now</button></a>
+        </div>
+        <div class="bus-details">
+            <h2>SBM TRANSPORT</h2><br>
+    
+            <div class="bus-info">
+                <span>Bus Number:</span>
+                <span>TN42C5643</span>
+            </div>
+    
+            <div class="bus-info">
+                <span>Departure Time:</span>
+                <span>6.00 AM</span>
+            </div>
+    
+            <div class="bus-info">
+                <span>Departure Point:</span>
+                <span>Madurai</span>
+            </div>
+    
+            <div class="bus-info">
+                <span>Destination:</span>
+                <span>Covai</span>
+            </div>
+    
+            <div class="bus-info">
+                <span>Available Seats:</span>
+                <span>32</span>
+            </div>
+            <a href="./sbmtransport.html"> <button type="button" class="book-button">Book Now</button></a>
+        </div>
+        <div class="bus-details">
+            <h2>ROYAL TRANSPORT</h2><br>
+    
+            <div class="bus-info">
+                <span>Bus Number:</span>
+                <span>TN42B7556</span>
+            </div>
+    
+            <div class="bus-info">
+                <span>Departure Time:</span>
+                <span>10:00 PM</span>
+            </div>
+    
+            <div class="bus-info">
+                <span>Departure Point:</span>
+                <span>Madurai</span>
+            </div>
+    
+            <div class="bus-info">
+                <span>Destination:</span>
+                <span>Chennai</span>
+            </div>
+    
+            <div class="bus-info">
+                <span>Available Seats:</span>
+                <span>32</span>
+            </div>
+            <a href="./royaltravels.html"> <button type="button" class="book-button">Book Now</button></a>
+        </div>
+    </div>
+    <div class="details">
+        <div class="bus-details">
+            <h2>PRK TRANSPORT</h2><br>
+    
+            <div class="bus-info">
+                <span>Bus Number:</span>
+                <span>TN42S1903</span>
+            </div>
+    
+            <div class="bus-info">
+                <span>Departure Time:</span>
+                <span>8:00 PM</span>
+            </div>
+    
+            <div class="bus-info">
+                <span>Departure Point:</span>
+                <span>Bangalore</span>
+            </div>
+    
+            <div class="bus-info">
+                <span>Destination:</span>
+                <span>palakkad</span>
+            </div>
+    
+            <div class="bus-info">
+                <span>Available Seats:</span>
+                <span>32</span>
+            </div>
+            <a href="./prktravels.html"> <button type="button" class="book-button">Book Now</button></a>
+        </div>
+        <div class="bus-details">
+            <h2>ARS TRANSPORT</h2><br>
+    
+            <div class="bus-info">
+                <span>Bus Number:</span>
+                <span>TN42C3123</span>
+            </div>
+    
+            <div class="bus-info">
+                <span>Departure Time:</span>
+                <span>10.00 PM</span>
+            </div>
+    
+            <div class="bus-info">
+                <span>Departure Point:</span>
+                <span>Covai</span>
+            </div>
+    
+            <div class="bus-info">
+                <span>Destination:</span>
+                <span>Pollachi</span>
+            </div>
+    
+            <div class="bus-info">
+                <span>Available Seats:</span>
+                <span>32</span>
+            </div>
+            <a href="./arstravels.html"> <button type="button" class="book-button">Book Now</button></a>
+        </div>
+        <div class="bus-details">
+            <h2>CHEKRA TRANSPORT</h2><br>
+    
+            <div class="bus-info">
+                <span>Bus Number:</span>
+                <span>TN42V4357</span>
+            </div>
+    
+            <div class="bus-info">
+                <span>Departure Time:</span>
+                <span>10:00 PM</span>
+            </div>
+    
+            <div class="bus-info">
+                <span>Departure Point:</span>
+                <span>Chennai</span>
+            </div>
+    
+            <div class="bus-info">
+                <span>Destination:</span>
+                <span>Bangalore</span>
+            </div>
+    
+            <div class="bus-info">
+                <span>Available Seats:</span>
+                <span>32</span>
+            </div>
+            <a href="./chekratravels.html"> <button type="button" class="book-button">Book Now</button></a>
+        </div>
+    </div>
+    <center>
+    <a href="./busfrontpage.html"> <button type="button" class="book-button">BACK</button></a>
+    </center>
+</div>
+</body>
+</html>
